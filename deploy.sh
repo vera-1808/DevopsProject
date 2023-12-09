@@ -6,8 +6,7 @@ if [[ $GIT_BRANCH == "origin/dev" ]]; then
     ./build.sh
 
     # Log in to Docker Hub (replace with your actual Docker Hub credentials)
-    docker login -u veera1808 -p dckr_pat_C7FMRRRiGBfoZvetq6DDyyYf8OU
-
+    docker login -u veera1808 -p dckr_pat_xxDIcXWe_KR09IrYop_gOzksgnE
   
     # Tag the image
     docker tag react-appimg veera1808/dev_repo
@@ -20,7 +19,7 @@ elif [[ $GIT_BRANCH == "origin/main" ]]; then
     ./build.sh
 
     # Log in to Docker Hub (replace with your actual Docker Hub credentials)
-    docker login -u veera1808 -p dckr_pat_C7FMRRRiGBfoZvetq6DDyyYf8OU
+    docker login -u veera1808 -p dckr_pat_xxDIcXWe_KR09IrYop_gOzksgnE
 
    
     # Tag the image
